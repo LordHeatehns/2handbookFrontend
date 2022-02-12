@@ -1,0 +1,60 @@
+/*dropdown-user*/
+
+
+.dropdown-user {
+    display:flex;
+    flex-wrap: wrap;
+    text-align: center;
+    
+    
+}
+
+.dropdown-user::before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 15px 15px 15px;
+    border-color: transparent transparent black transparent;
+    position: relative;
+    bottom:1.3rem;
+    left:-10px;
+    
+}
+
+
+
+
+
+
+.dropdown-user > .dropdown-line {
+    width: 100%;
+    margin:0.5rem auto; 
+    
+}
+
+.set-username {
+    margin-bottom: 1rem;
+    color: white;
+   
+}
+
+.set-my-profuct {
+    margin-bottom: 1rem;
+    font-size:14px;
+    color:white;
+    cursor: pointer;
+    
+}
+
+.set-logout {
+    margin-bottom: 1rem;
+    cursor: pointer;
+    color: white;
+}
+
+.dropdown-line img {
+    width:20%;
+    height:60%;
+    border-radius: 0.5rem;
+}

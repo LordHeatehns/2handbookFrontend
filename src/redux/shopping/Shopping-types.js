@@ -1,0 +1,10 @@
+
+
+export const ADD_TO_CART = "ADD_TO_CART";
+export const ADD_ITEM_QTY = "ADD_ITEM_QTY";
+export const REMOVE_CART = " REMOVE_CART";
+export const LOAD_CURRENT_ITEM ="LOAD_CURRENT_ITEM";
+export const FETCHED_PRODUCT ="FETCHED_PRODUCT";
+export const FETCH_ERROR ="FETCH_ERROR";
+export const LOGOUT_SHOPPING = "LOGOUT_SHOPPING";
+

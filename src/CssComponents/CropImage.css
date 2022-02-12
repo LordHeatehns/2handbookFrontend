@@ -1,0 +1,79 @@
+
+
+.contain-crop {
+    margin:1% auto;
+    background-color: rgba(24, 23, 22,0.8);
+    height:50rem;
+    display: flex;
+    width:40%;
+    height:39rem;
+    flex-direction: column;
+  
+    
+    
+}
+
+.contain-crop .crop {
+  display: flex;
+  justify-content: center;
+  width:100%;
+  height:70%;
+ 
+ 
+}
+
+.crop img {
+  width: 100%;
+  height:26rem;
+  display: block;
+  margin: 0 auto;
+ 
+}
+
+.contain-crop input {
+  display: none;
+}
+
+.contain-crop label {
+ margin: 3% auto;
+ border:1px dashed black;
+ background-color:white;
+ border-radius: 50%;
+}
+
+
+
+
+.contain-crop button {
+  display: flex;
+  margin: 5% auto;
+  border-radius: 0.5rem;
+  padding: 1% 4%;
+  background-color: rgb(41, 142, 224);
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+
+
+.crop .reactCrop {
+  width: 95%;
+  display: flex;
+  justify-content: center;
+
+}
+
+
+.contain-crop .icon-upload {
+   font-size:500%;
+   color: black;
+   cursor: pointer;
+  
+}
+
+.crop .logo-user{
+  width: 40%;
+  opacity: .6;
+  
+}
+

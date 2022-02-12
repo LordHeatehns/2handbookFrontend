@@ -1,0 +1,163 @@
+
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+
+.contain-my-product {
+    width: 65%;
+    margin: 0 auto;
+    background: rgb(248, 246, 248);
+    position: relative;
+   
+ 
+}
+
+.component-add-product {
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+    background: rgb(161, 86, 86);
+    display: none;
+    
+    
+}
+
+
+.contain-my-product h1 {
+    text-align: left ;
+}
+
+
+.icon-add-product {
+    position: relative;
+    width:1.5rem;
+    height:1.5rem;
+    background:blueviolet;
+    border:2px solid white;
+    left:85%;
+    cursor: pointer;
+    
+}
+
+
+.icon-add-product::before {
+    content:' ';
+    position: absolute;
+    width: 100%;
+    height:2px;
+    background-color: white;
+    transform: translate(0,0.6rem);
+
+}
+
+
+.icon-add-product::after {
+    content:' ';
+    position: absolute;
+    width: 100%;
+    height:2px;
+    background-color: white;
+    transform: translate(0,0.6rem) rotate(90deg);
+
+}
+
+/*table*/
+  
+  .content-table {
+    width:100%;
+    border-collapse: collapse;
+    margin: 15px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    
+  }
+  
+  .content-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+    
+  }
+  
+  .content-table th,
+  .content-table td {
+    padding: 12px 15px;
+    border: none;
+  }
+  
+  .content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  .content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+  
+  .content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+  }
+  
+  .content-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+  }
+
+
+  .delete-myproduct {
+      background:rgb(240, 92, 92);
+      border: none;
+      padding: 2% 4%;
+      color: rgb(231, 226, 226);
+      font-weight: bold;
+      cursor: pointer;
+  }
+
+
+  .switch-toggle {
+      position: relative;
+      display: inline-block;
+      width: 60px;
+      height: 26px;
+      background-color:white;
+  }
+
+   .slider-01 {
+    position: absolute;
+    cursor: pointer;
+    top:3px;
+    left:4px;
+    bottom: 0;
+    background-color:#ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+    height:18px;
+    width: 26px;
+    
+  }
+
+  .slider-02 {
+    position: absolute;
+    cursor: pointer;
+    top:3px;
+    bottom: 0;
+    background-color: rgb(97, 228, 70);
+    -webkit-transition: .4s;
+    transition: .4s;
+    height:18px;
+    width: 26px;
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+    
+  }
+
+ 
+
+ 

@@ -1,0 +1,65 @@
+
+.containerSidebar {
+    width:20%;
+    margin: 1.7% 1%;
+    padding: 0;
+    display:flex;
+    flex-wrap: wrap;
+    height:20rem;
+   
+}
+
+
+.tableCategories {
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+
+
+.tableCategories td, .tableCategories th {
+    margin: 10px;
+    border: none;
+  }
+
+
+.tableCategories th {
+    text-align:left;
+   
+   
+}
+
+.containerSidebar tbody  td:hover {
+    border-bottom:3px solid rgb(0,169 ,157);
+    cursor: pointer;
+    transition:0.2s step-end;
+} 
+
+
+
+.headtable {
+    background-color:white;
+    
+}
+
+.tableCategories tr {
+    font-size:0.9rem;
+    
+    
+}
+
+.tableCategories #categories {
+    font-weight:900;
+    font-size: 1rem;
+}
+
+
+.tableCategories tbody a:link {
+    color:black;
+    
+}
+
+.tableCategories td {
+    padding-top:1rem;
+    color: black;
+}

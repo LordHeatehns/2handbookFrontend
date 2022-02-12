@@ -1,0 +1,220 @@
+* {
+    box-sizing: border-box;
+}
+
+.container-detail-and-sale{
+    margin:2% auto;
+    width:80%;
+    background:white;
+    height:30rem;
+  
+}
+
+.box-1 {
+    position: relative;
+    width: 100%;
+    margin:2% 0 ;
+    display: flex;
+    
+    
+}
+
+
+.pic-item {
+   width: 30%;
+   border:none;
+   background-color:white;
+   height:30rem;
+   
+  
+  
+    
+}
+
+
+
+
+
+.pic-big {
+  display: block;
+  width:85%;
+  height:22.2rem;
+  margin-top:7%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom:6%;
+}
+
+.all-pic-small {
+    width:100%;
+    display: block;
+    margin-top:6%;
+    cursor: pointer;
+    justify-content: center;
+    text-align: center;
+   
+    
+}
+
+.pic-small {
+    width:20%;
+    height:5rem;
+    margin:0 10%;
+    padding:0.3rem;
+    background-color: whitesmoke;
+  }
+
+
+  /*sale item*/
+
+  .sale-item {
+    width:60%;
+    
+   
+    
+    
+ }
+
+  .text-h2  {
+      margin:0 2%;
+      padding: 0;
+      word-wrap: break-word;
+      text-align:left;
+      font-size:1.8rem;
+  }
+
+  .sale-price {
+      margin: 0 2%;
+      display: flex;
+      width:95%;
+      height:auto;
+      flex-wrap: wrap;
+      
+      border: 1px solid rgb(20, 20, 20,0.2);
+  }
+
+  .dealer {
+      margin: 0 5% 2% 2%;
+  }
+
+  .tag-price {
+      margin: 0 2%;
+  }
+
+  .prices {
+      margin: 5% 2%;
+      color: red;
+      font-size:2rem;
+  }
+
+
+  .container-add-product {
+    margin: 2% 10%;
+    
+  }
+
+  .container-add-product button {
+      padding:1rem;
+      align-items: center;
+      width:50px;
+      font-size: 1rem;
+      margin-top: 4%;
+  }
+
+
+  .btn-plus {
+     border: none;
+     cursor: pointer;
+  }
+
+  .btn-result {
+
+     border: none;
+     background-color: white;
+    
+     
+     
+  }
+
+  .btn-minus{
+     border:none;
+     cursor: pointer;
+  }
+
+  .btn-add-to-bag {
+      margin: 2%;
+      padding:2% 4%;
+      border: none;
+      background: rgb(38, 192, 89);
+      cursor: pointer;
+  }
+
+  .line {
+      width:95%;
+      background: rgb(206, 200, 200);
+      height: 1px;
+      margin-top: 4%;
+      margin-bottom: 5%;
+      margin-left: 2%;
+      margin-right: 2%;
+  }
+
+  .topic-synopsis {
+    margin:2% 0 2% 2%;
+
+  }
+  .p-synopsis {
+      margin: 0 2%;
+      border:none;
+      word-wrap: break-word;
+  }
+
+
+
+  .detail-item {
+     
+      width:40%;
+      margin:5% 1%;
+     
+  }
+  
+      
+.detail-item table, th, td {
+   border: 1px solid black;
+}
+.detail-item table {
+    width:100%;
+    border-collapse:collapse ;
+    border: none;
+    
+}
+
+.detail-item td {
+    white-space: nowrap;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    margin: 0;
+    padding: 3%;
+    font-size:14px;
+}
+
+
+.detail-item tr td:first-child {
+    background:whitesmoke;
+    border:1px solid rgb(39, 37, 37,0.2);
+    border-right:none;
+}
+
+.detail-item tr td:last-child {
+    border:1px solid rgb(39, 37, 37,0.2);
+    border-left:none;
+}
+
+
+.detail-item .detail-rating {
+    margin-top:5%
+}
+
+
+
+  

@@ -1,0 +1,12 @@
+
+
+.rating {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.rating > span {
+  margin: auto 0;
+  font-weight: 600;
+}
